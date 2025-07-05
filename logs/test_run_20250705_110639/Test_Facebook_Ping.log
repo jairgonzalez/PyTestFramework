@@ -1,0 +1,29 @@
+Test: Test Facebook Ping
+Script: /Users/jairgonzalez/Desktop/Projects/PyTestFramework/scripts/ping-facebook.sh
+Timestamp: 2025-07-05 11:06:49
+Status: PASSED
+Expected Success: True
+Actual Success: True
+Return Code: 0
+Execution Time: 10.02 seconds
+
+STDOUT:
+Starting to ping facebook.com for 10 seconds...
+PING facebook.com (157.240.22.35): 56 data bytes
+64 bytes from 157.240.22.35: icmp_seq=0 ttl=43 time=17.278 ms
+64 bytes from 157.240.22.35: icmp_seq=1 ttl=43 time=21.760 ms
+64 bytes from 157.240.22.35: icmp_seq=2 ttl=43 time=19.361 ms
+64 bytes from 157.240.22.35: icmp_seq=3 ttl=43 time=19.251 ms
+64 bytes from 157.240.22.35: icmp_seq=4 ttl=43 time=17.851 ms
+64 bytes from 157.240.22.35: icmp_seq=5 ttl=43 time=19.248 ms
+64 bytes from 157.240.22.35: icmp_seq=6 ttl=43 time=17.633 ms
+64 bytes from 157.240.22.35: icmp_seq=7 ttl=43 time=15.442 ms
+64 bytes from 157.240.22.35: icmp_seq=8 ttl=43 time=42.211 ms
+64 bytes from 157.240.22.35: icmp_seq=9 ttl=43 time=17.119 ms
+Ping completed after 10 seconds.
+
+
+STDERR:
+(no errors)
+
+==================================================

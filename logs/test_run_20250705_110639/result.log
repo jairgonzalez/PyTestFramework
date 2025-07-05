@@ -1,0 +1,24 @@
+Test Run Started: 2025-07-05 11:06:39
+==================================================
+
+[2025-07-05 11:06:39] PASSED: Test Google Ping
+  Script: /Users/jairgonzalez/Desktop/Projects/PyTestFramework/scripts/ping-google.sh
+  Execution Time: 10.02s
+  Return Code: 0
+
+[2025-07-05 11:06:49] PASSED: Test Facebook Ping
+  Script: /Users/jairgonzalez/Desktop/Projects/PyTestFramework/scripts/ping-facebook.sh
+  Execution Time: 10.02s
+  Return Code: 0
+
+[2025-07-05 11:06:49] FAILED: Test Date Script
+  Script: /Users/jairgonzalez/Desktop/Projects/PyTestFramework/scripts/date.sh
+  Execution Time: 0.02s
+  Return Code: 0
+  Validation Error: Expected output from resources/date.sh.log does not match actual output....
+
+[2025-07-05 11:06:49] PASSED: Test Math Calculation
+  Script: /Users/jairgonzalez/Desktop/Projects/PyTestFramework/scripts/math.sh
+  Execution Time: 0.00s
+  Return Code: 0
+

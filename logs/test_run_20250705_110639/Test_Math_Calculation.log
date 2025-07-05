@@ -1,0 +1,18 @@
+Test: Test Math Calculation
+Script: /Users/jairgonzalez/Desktop/Projects/PyTestFramework/scripts/math.sh
+Timestamp: 2025-07-05 11:06:49
+Status: PASSED
+Expected Success: True
+Actual Success: True
+Return Code: 0
+Execution Time: 0.00 seconds
+
+STDOUT:
+Calculating 4 x 5...
+4 x 5 = 20
+
+
+STDERR:
+(no errors)
+
+==================================================

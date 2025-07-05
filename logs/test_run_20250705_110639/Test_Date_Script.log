@@ -1,0 +1,38 @@
+Test: Test Date Script
+Script: /Users/jairgonzalez/Desktop/Projects/PyTestFramework/scripts/date.sh
+Timestamp: 2025-07-05 11:06:49
+Status: FAILED
+Expected Success: True
+Actual Success: True
+Return Code: 0
+Execution Time: 0.02 seconds
+
+STDOUT:
+Current date and day:
+Saturday, July 05, 2025
+Today is Saturday
+The date is 2025-07-05
+
+
+STDERR:
+(no errors)
+
+
+VALIDATION ERROR:
+Expected output from resources/date.sh.log does not match actual output.
+  Expected:
+  NA
+  Actual:
+  Current date and day:
+  Saturday, July 05, 2025
+  Today is Saturday
+  The date is 2025-07-05
+assert 'NA' == 'Current date...is 2025-07-05'
+  
+  [0m[92m+ NA[39;49;00m[90m[39;49;00m
+  [91m- Current date and day:[39;49;00m[90m[39;49;00m
+  [91m- Saturday, July 05, 2025[39;49;00m[90m[39;49;00m
+  [91m- Today is Saturday[39;49;00m[90m[39;49;00m
+  [91m- The date is 2025-07-05[39;49;00m[90m[39;49;00m
+
+==================================================

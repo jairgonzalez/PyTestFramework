@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Test Google Ping",
+    "script_path": "scripts/ping-google.sh",
+    "expected_success": true,
+    "timeout": 15
+  },
+  {
+    "name": "Test Facebook Ping",
+    "script_path": "scripts/ping-facebook.sh",
+    "expected_success": true,
+    "timeout": 15
+  },
+   {
+    "name": "Test Date Script",
+    "script_path": "scripts/date.sh",
+    "expected_success": true,
+    "timeout": 5,
+    "expected_result_file": "resources/date.sh.log"
+  },
+  {
+    "name": "Test Math Calculation",
+    "script_path": "scripts/math.sh",
+    "expected_success": true,
+    "timeout": 5,
+    "expected_result_file": "resources/math.sh.log"
+  }
+]
